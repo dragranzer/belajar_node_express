@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Home</title>
+    <style>
+        .header{
+            background-color: #FFFFFF;
+            width: 100%;
+            height: 70px;
+        }
+        .header img{
+            width: 100.75px;
+            height: 50px;
+            margin-top: 10px;
+        }
+        .body{
+            height: 700px;
+            width: 100%;
+            background: url('img/bg-img.png');
+            background-size: 100% 852px;
+        }
+        .nav li{
+            margin: 20px 10px;
+        }
+        .body img{
+            height: 355px;
+            width: 355px;
+            left: 98px;
+            top: 184px;
+            border-radius: 177.5px;
+            margin-left: 98px;
+            margin-top: 114px;
+        }
+        .hy{
+            font-family: Roboto;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+            height: 29px;
+            width: 165px;
+            left: 488px;
+            top: 220px;
+            border-radius: nullpx;
+            margin-top: 150px;
+            color: #19345E;
+        }
+        .name{
+            position: absolute;
+            width: 521px;
+            height: 100px;
+            top: 249px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 85px;
+            line-height: 100px;
+            /* identical to box height */
+            color: #19345E;
+
+            margin-bottom: 21px;
+        }
+        .cap{
+            position: absolute;
+            width: 387px;
+            height: 41px;
+            top: 370px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 41px;
+            /* identical to box height */
+            color: #19345E;
+        }
+        .signup{
+            position: absolute;
+            width: 150px;
+            height: 40px;  
+            top: 433px;
+
+            background: #F47522;
+            border-radius: 20px;
+        }
+        .signup p{
+            margin-top: 10px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        ul li:hover {
+            color: #F47522;
+        }
+        a { color: inherit; text-decoration:none;} 
+        .oren{
+            color: #F47522;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2">
+                    <img src="img/logo-ALTA.png" alt="">
+                </div>
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-4">
+                    <ul class='nav'>
+                        <li class='oren'>HOME</li>
+                        <li>ABOUT</li>
+                        <li>EXPERIENCE</li>
+                        <li><a href="loading" onclick="loading()">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg" alt="">
+                </div>
+                <div class="col-md-7">
+                    <div class="hy">
+                        Hi, my name is
+                    </div>
+                    <div class="name">
+                        Anne Sullivan
+                    </div>
+                    <div class="cap">
+                        I build things for the web
+                    </div>
+                    
+                    <a href="contact_us">
+                        <div class='signup'>
+                            <p>Get In Touch</p>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scriptDOM.js"></script>
+</html>
